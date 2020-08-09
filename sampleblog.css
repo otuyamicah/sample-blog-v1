@@ -7,3 +7,16 @@ h6{
     background-color: crimson;
     font-variant: small-caps;
 }
+
+ul{
+    background-color: black;
+
+    
+}
+
+li{
+    display: inline;
+    margin: 10px;
+    padding: 10px;
+    color: white;
+}
