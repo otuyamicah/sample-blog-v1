@@ -1,3 +1,3 @@
 # sample-blog-v1
 
-# A sample blog uses CSS Flexbox
+# A sample blog using CSS Flexbox
