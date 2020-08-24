@@ -1,98 +1,78 @@
-*{
-    margin: 0;
-    padding: 0;
+.container1 {
+    display: flex;
+    background-color: grey;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
 }
 
-/*  feature/nav_bar */
-
-
-
-li{
-    
-    display: flex;
+.container1 > div {
+    width: 30vw;
+    height: 30vw;
     margin: 10px;
     padding: 10px;
-   
-   
- 
+    border: 1px skyblue solid;
+    
+
 }
 
-p{
-    color:black;
+
+.img1 {
+    background-image: url(Assets/images/im3.jpg);
+    background-size: cover;
+    background-position: center;
 }
 
-a{
-    text-decoration: none;
-    color:white;
-    font-size: medium;
-    font-family:  sans-serif;
-    letter-spacing: 4px;
-    font-size: 20px;
-   
-  
+.img2{
+    background-image: url(Assets/images/img1.jpg);
+    background-size: cover;
+    background-position: center;
     
 }
 
-ul{
-    display: flex;
-    justify-content: center;
-    background-color: black;
-    position: fixed;
-    width: 100%;  
+.img3{
+    background-image: url(Assets/images/img2.jpg);
+    background-size: cover;
+    background-position: center;
 }
 
-a:hover{
-    text-decoration: underline;
- 
-/* Basic styles */
-* {
-    box-sizing: border-box;
-    font-family: sans-serif;
-    margin: 0;
-}
-body {
-    font-size: 1rem;
-}
-.content {
-    padding: 1.5rem;
-}
-h1,
-p {
-    margin: 1rem 0;
+.img4{
+    background-image: url(Assets/images/img4.jpg);
+    background-size: cover;
+    background-position: center;
 }
 
-/* Basic footer styles */
-footer {
-    width: 100%;
-    background: #111;
-    margin-top: 1.5rem;
-}
-ul {
-    padding: 1.25rem;
-    text-align: center;
-}
-ul li {
-    list-style-type: none;
-    display: inline-block;
-    margin: 0.25rem 0.75rem;
-}
-ul a {
-    color: #fff;
-    text-decoration: none;
-}
-ul a:hover {
-    text-decoration: underline;
+.img5{
+    background-image: url(Assets/images/img5.jpg);
+    background-size: cover;
+    background-position: center;
 }
 
-/* Sticky Footer */
-body {
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
+.img6{
+    background-image: url(Assets/images/img6.jpg);
+    background-size: cover;
+    background-position: center;
 }
-.content {
-    flex: 1;
+
+.img7{
+    background-image: url(Assets/images/img7.jpg);
+    background-size: cover;
+    background-position: center;
 }
-footer {
-    flex-shrink: 0;
+
+.img8{
+    background-image: url(Assets/images/img8.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.img9{
+    background-image: url(Assets/images/img9.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.item:hover{
+    border: 3px solid white;
+
+    
 }
