@@ -4,9 +4,6 @@
 }
 
 /*  feature/nav_bar */
-
-
-
 li{
     
     display: flex;
@@ -43,6 +40,7 @@ ul{
 
 a:hover{
     text-decoration: underline;
+
  
 /* Basic styles */
 * {
