@@ -23,13 +23,14 @@
     background-position: center;
 }
 
+
 .img2{
     background-image: url(Assets/images/img1.jpg);
     background-size: cover;
     background-position: center;
-    
 }
 
+               
 .img3{
     background-image: url(Assets/images/img2.jpg);
     background-size: cover;
@@ -66,11 +67,15 @@
     background-position: center;
 }
 
+
 .img9{
     background-image: url(Assets/images/img9.jpg);
     background-size: cover;
     background-position: center;
 }
+
+
+
 .item:hover{
     border: 3px solid white;
 
