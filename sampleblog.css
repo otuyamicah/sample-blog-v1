@@ -2,21 +2,12 @@ h1{
     background-color: blue;
     font-variant: small-caps;
 }
+
 h6{
     background-color: crimson;
     font-variant: small-caps;
 }
 
-/*  feature/nav_bar */
-li{
-    
-    display: flex;
-    margin: 10px;
-    padding: 10px;
-   
-   
-
- 
 /* Basic styles */
 * {
     box-sizing: border-box;
@@ -33,7 +24,6 @@ h1,
 p {
     margin: 1rem 0;
 }
-
 
 /* Basic footer styles */
 footer {
@@ -52,12 +42,6 @@ ul li {
 }
 ul a {
     color: #fff;
-}
-p{
-    color:black;
-}
-
-a{
     text-decoration: none;
 }
 ul a:hover {
@@ -75,8 +59,4 @@ body {
 }
 footer {
     flex-shrink: 0;
-}
-
-a:hover{
-    text-decoration: underline;
 }
