@@ -1,10 +1,43 @@
-h1{
-    background-color: blue;
-    font-variant: small-caps;
+*{
+    margin: 0;
+    padding: 0;
 }
 
-h6{
-    background-color: crimson;
-    font-variant: small-caps;
+
+li{
+    
+    display: flex;
+    margin: 10px;
+    padding: 10px;
+   
+   
+ 
 }
 
+p{
+    color:black;
+}
+
+a{
+    text-decoration: none;
+    color:white;
+    font-size: medium;
+    font-family:  sans-serif;
+    letter-spacing: 4px;
+    font-size: 20px;
+   
+  
+    
+}
+
+ul{
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    position: fixed;
+    width: 100%;  
+}
+
+a:hover{
+    text-decoration: underline;
+}
